@@ -12,35 +12,45 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # [](#header-1)Infosys interview Questions And Answers
 
-1.Difference between C and C++?
+**1.Difference between C and C++?**
 
  
 
 a) C follows the procedural programming paradigm while C++ is a multi-paradigm language (procedural as well as object oriented)
 In case of C, importance is given to the steps or procedure of the program while C++ focuses on the data rather than the process.
 Also, it is easier to implement/edit the code in case of C++ for the same reason.
+
 b) In case of C, the data is not secured while the data is secured (hidden) in C++
 This difference is due to specific OOP features like Data Hiding which are not present in C.
+
 c) C is a low-level language while C++ is a middle-level language
 C is regarded as a low-level language (difficult interpretation & less user friendly) while C++ has features of both low-level (concentration on what's going on in the machine hardware) & high-level languages (concentration on the program itself) & hence is regarded as a middle-level language.
+
 d) C uses the top-down approach while C++ uses the bottom-up approach
 In case of C, the program is formulated step by step, each step is processed into detail while in C++, the base elements are first formulated which then are linked together to give rise to larger systems.
+
 e) C is function-driven while C++ is object-driven
 Functions are the building blocks of a C program while objects are building blocks of a C++ program.
+
 f) C++ supports function overloading while C does not
 Overloading means two functions having the same name in the same program. This can be done only in C++ with the help of Polymorphism (an OOP feature)
+
 g) We can use functions inside structures in C++ but not in C.
 In case of C++, functions can be used inside a structure while structures cannot contain functions in C.
+
 h) The NAMESPACE feature in C++ is absent in case of C
 C++ uses NAMESPACE which avoid name collisions. For instance, two students enrolled in the same university cannot have the same roll number while two students in different universities might have the same roll number. The universities are two different namespace & hence contain the same roll number (identifier) but the same university (one namespace) cannot have two students with the same roll number (identifier)
+
 i) The standard input & output functions differ in the two languages
 C uses scanf & printf while C++ uses cin>> & cout<< as their respective input & output functions
+
 j) C++ allows the use of reference variables while C does not
 Reference variables allow two variable names to point to the same memory location. We cannot use these variables in C programming.
+
 k) C++ supports Exception Handling while C does not.
 C does not support it "formally" but it can always be implemented by other methods. Though you don't have the framework to throw & catch exceptions as in C++.
 
-2.What is null pointer?
+**2.What is null pointer?**
 
 When referring to computer memory, a null pointer is a command used to direct a software program or operating system to an empty location in the computer memory. Commonly, the null pointer is used to denote the end of a memory search or processing event. In computer programming, a null pointer is a pointer that does not point to any object or function.
 A nil pointer is a false value. For example, 1 > 2 is a nil statement.
@@ -48,18 +58,18 @@ In the programming language C, NULL is an available command that can be used, wh
 
  
 
-3.What are the 4 basics of OOP?  
+**3.What are the 4 basics of OOP?** 
  Abstraction, Inheritance, Encapsulation, and Polymorphism.
 
  
 
-4.What you mean by Object Relational DBMS?
+**4.What you mean by Object Relational DBMS?**
 
 An object-relational database (ORD), or object-relational database management system (ORDBMS), is a database management system (DBMS) similar to a relational database, but with an object-oriented database model: objects, classes and inheritance are directly supported in database schemas and in the query language. In addition, just as with proper relational systems, it supports extension of the data model with custom data-types and methods.
 
  
 
-5.Structural difference between bitmap and b-tree index ? 
+**5.Structural difference between bitmap and b-tree index ? **
 
 Btree
 It is made of branch nodes and leaf nodes. Branch nodes holds prefix key value along with the link to the leaf node. The leaf node in turn contains the indexed value and rowed.
@@ -68,11 +78,11 @@ It simply consists of bits for every single distinct value. It uses a string of 
 
  
 
-6.what is database Schema?
+**6.what is database Schema?**
 The formal definition of database schema is a set of formulas (sentences) called integrity constraints imposed on a database.
  
 
-7.what are the different levels of database schema?
+**7.what are the different levels of database schema?**
 Conceptual schema- a map of concepts and their relationships.
 Logical schema- a map of entities and their attributes and relations
 Physical schema- a particular implementation of a logical schema
@@ -80,17 +90,17 @@ Schema object- Oracle database object
 
  
 
-8.what is difference between foreign key and reference key ?  
+**8.what is difference between foreign key and reference key ?**
   Reference Key is the primary key that is referenced in the other table (linked via the other tables Foreign Key). Foreign Key is how you link the second table to the primary tables Primary Key (or Reference Key).
 
  
 
-9.Tell me about DSN?
+**9.Tell me about DSN?**
 A Data Source Name (DSN) is the logical name that is used by Open Database Connectivity (ODBC) to refer to the drive and other information that is required to access data. The name is used by Internet Information Services (IIS) for a connection to an ODBC data source, such as a Microsoft SQL Server database. 
 
  
 
-10.ifference between Clustered index and non clustered index ?   
+**10.ifference between Clustered index and non clustered index ?**   
 
 Clustered Index
 Only one per table
@@ -101,7 +111,7 @@ Quicker for insert and update operations than a clustered index
 
  
 
-11.What is WPF and WCF?
+**11.What is WPF and WCF?**
 
 WPF/WCF application, need in .NET 3.0 Framework. This application will cover the following concepts:
 WCF(Windows Communication Foundation)
@@ -118,13 +128,13 @@ Databinding
 Multithreading a WPF application
  
 
-12.What is the difference between an EXE and a DLL?   
+**12.What is the difference between an EXE and a DLL?**   
 
 The term EXE is a shortened version of the word executable as it identifies the file as a program. On the other hand, DLL stands for Dynamic Link Library, which commonly contains functions and procedures that can be used by other programs.
 10.Scenarios in which web application should be used and desktop application should be used?
  
 
-13.Tell how to check whether a linked list is circular.
+**13.Tell how to check whether a linked list is circular.**
 
 Create two pointers, each set to the start of the list. Update each as follows:
 while (pointer1) {
@@ -137,7 +147,7 @@ print ("circular\n");
 
  
 
-14.How can u increase the heap size in the memory?
+**14.How can u increase the heap size in the memory?**
 
 If heap size set too low then you will get "out of memory" errors. If you set it too high then your system will hang or you will suffer poor performance because parts of the jvm will be swapped in and out of memory. A rule of thumb is that you should not set this parameter larger than about 80% of your free physical memory. On Windows XP machines you can determine your free physical memory from the Performance tab of the Task Manager application. 
 
@@ -145,7 +155,7 @@ Boosting the heap size parameter will allow you to read in larger file-based pro
 
  
 
-15.Why is it difficult to store linked list in an array?
+**15.Why is it difficult to store linked list in an array?**
 
 Both Arrays and Linked List can be used to store linear data of similar types.
 
@@ -157,7 +167,7 @@ Linked lists have following drawbacks:
 
  
 
-16.Different types of keys in SQL?
+**16.Different types of keys in SQL?**
 
 The different types of Keys in sql server are,
  
@@ -177,7 +187,7 @@ Foreign Key
 A foreign key in a table is a key which refer another tables primary key . A primary key can be referred by multiple foreign keys from other tables. It is not required for a primary key to be the reference of any foreign keys. The interesting part is that a foreign key can refer back to the same table but to a different column. This kind of foreign key is known as self-referencing foreign key.
  
 
-17.Explain about Joins, Views, Normalization, Triggers?
+**17.Explain about Joins, Views, Normalization, Triggers?**
 
 The JOIN keyword is used in an SQL statement to query data from two or more tables, based on a relationship between certain columns in these tables.
 Tables in a database are often related to each other with keys.
@@ -226,18 +236,18 @@ Remember, these normalization guidelines are cumulative. For a database to be in
 In a DBMS, a trigger is a SQL procedure that initiates an action (i.e., fires an action) when an event (INSERT, DELETE or UPDATE) occurs. Since triggers are event-driven specialized procedures, they are stored in and managed by the DBMS. A trigger cannot be called or executed; the DBMS automatically fires the trigger as a result of a data modification to the associated table. Triggers are used to maintain the referential integrity of data by changing the data in a systematic fashion. Each trigger is attached to a single, specified table in the database. 
  
 
-18.what is the difference between socket and session?
+**18.what is the difference between socket and session?**
 
 The Socket is a Combination of Ip address and Port Number (in pairs)
 Session is a Logical Connectivity between the source and destination 
  
 
-19.What is a default gateway?
+**19.What is a default gateway?**
 
 In organizational systems a gateway is a node that routes the traffic from a workstation to another network segment. The default gateway commonly connects the internal networks and the outside network (Internet). In such a situation, the gateway node could also act as a proxy server and a firewall. The gateway is also associated with both a router, which uses headers and forwarding tables to determine where packets are sent, and a switch, which provides the actual path for the packet in and out of the gateway.
  
 
-20.Given an array of 1s and 0s arrange the 1s together and 0s together in a single scan of the array. Optimize the boundary conditions.
+**20.Given an array of 1s and 0s arrange the 1s together and 0s together in a single scan of the array. Optimize the boundary conditions.**
 
 void main()
 {
@@ -255,7 +265,7 @@ getch()
 }
  
 
-21.Define Data Abstraction. What is its importance?
+**21.Define Data Abstraction. What is its importance?**
 
 Abstraction is the process of recognizing and focusing on important characteristics of a situation or object and leaving/filtering out the un-wanted characteristics of that situation or object.
 Abstraction is the basis for software development. Its through abstraction we define the essential aspects of a system. The process of identifying the abstractions for a given system is called as Modeling (or object modeling).
@@ -266,7 +276,7 @@ Three levels of data abstraction are:
 
  
 
-22.Write a program to swap two numbers without using a temporary variable.
+**22.Write a program to swap two numbers without using a temporary variable.**
 ```
 void swap(int &i, int &j)
 {
@@ -277,32 +287,29 @@ i=i-j;
 ```
  
 
-23.Memory Allocation in C/C++
-```
+**23.Memory Allocation in C/C++**
 calloc() allocates a memory area, the length will be the product of its parameters(it has two parameters). calloc fills the memory with ZERO's and returns a pointer to first byte. If it fails to locate enough space it returns a NULL pointer.
 malloc() allocates a memory area, length will be value entered as parameter.(it has one parameter). It does not initializes memory area
 free() used to free the allocated memory(allocated through calloc and malloc), in other words, this used release the allocated memory
 new also used to allocate memory on heap and initialize the memory using constructor
 delete also used release memory allocated by new operator
-```
  
 
-24.Write output of the program?
-```
+**24.Write output of the program?**
+
 int i=10; 
 printf("%d%d%d",i,++i,i++);
 Answer = 10 12 12
-```
  
 
-25.what is virtual function and pure virtual function?
-```
+**25.what is virtual function and pure virtual function?**
 Virtual function:-To achieve polymorphism, function in base class is declared as virtual , By declare virtual we make base class pointer to execute function of any derived class depends on content of pointer (any derived class address).
 Pure Virtual Function :-This is function used in base class, and its defination has to be provide in derived class, In other pure virtual function has not defination in base it defined as :
 virtual void fun()=0;
 This means that this function not going to do anything, In case of pure virtual funtion derived function has to 
 implement pure virtual function or redeclare it as pure virtual function
-```
+
+
 ## [](#header-2)Header 2
 
 > This is a blockquote following a header.

@@ -267,42 +267,42 @@ Three levels of data abstraction are:
  
 
 22.Write a program to swap two numbers without using a temporary variable.
-
+```js
 void swap(int &i, int &j)
 {
 i=i+j;
 j=i-j;
 i=i-j;
 }
-
+```
  
 
 23.Memory Allocation in C/C++
-
+```js
 calloc() allocates a memory area, the length will be the product of its parameters(it has two parameters). calloc fills the memory with ZERO's and returns a pointer to first byte. If it fails to locate enough space it returns a NULL pointer.
 malloc() allocates a memory area, length will be value entered as parameter.(it has one parameter). It does not initializes memory area
 free() used to free the allocated memory(allocated through calloc and malloc), in other words, this used release the allocated memory
 new also used to allocate memory on heap and initialize the memory using constructor
 delete also used release memory allocated by new operator
-
+```
  
 
 24.Write output of the program?
-
+```js
 int i=10; 
 printf("%d%d%d",i,++i,i++);
 Answer = 10 12 12
-
+```
  
 
 25.what is virtual function and pure virtual function?
-
+```js
 Virtual function:-To achieve polymorphism, function in base class is declared as virtual , By declare virtual we make base class pointer to execute function of any derived class depends on content of pointer (any derived class address).
 Pure Virtual Function :-This is function used in base class, and its defination has to be provide in derived class, In other pure virtual function has not defination in base it defined as :
 virtual void fun()=0;
 This means that this function not going to do anything, In case of pure virtual funtion derived function has to 
 implement pure virtual function or redeclare it as pure virtual function
-
+```
 ## [](#header-2)Header 2
 
 > This is a blockquote following a header.
